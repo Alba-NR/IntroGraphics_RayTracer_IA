@@ -1,0 +1,11 @@
+<scene>
+    <ambient-light colour="#010101" intensity="2"/>     <!-- Set ambient illumination -->
+    <point-light x="-1.2" y="0.8" z="1.5" colour="#FF1D25" intensity="40"/>  <!-- Point Light 1 (red) -->
+    <point-light x="1.8" y="0.2" z="4.5" colour="#6747FF" intensity="40"/>  <!-- Point Light 2 (purple) -->
+    <point-light x="0.8" y="0.2" z="4.5" colour="#DDFF7E" intensity="5"/>  <!-- Point Light 3 (green) -->
+    <sphere x="-0.7 " y="0.21884" z="3" radius="0.35" colour="#6747FF"/> <!-- Sphere 1 (small, purple) -->
+    <sphere x="-0.2" y="00" z="4.33013" radius="0.5" colour="#59FFD6" alphaS="60"/> <!-- Sphere 2 (small, mint) -->
+    <sphere x="0.8" y="-0.35322" z="3.19986" radius="0.45" colour="#E702BA"/>   <!-- Sphere 3 (medium, pink) -->
+    <plane x="-0.2" y="-0.10622" z="4.68013" nx="0" ny="4.2239089012146" nz="-2.180126190185547" colour="#355C7D"/>  <!-- Plane (blue-ish) -->
+    <plane x="1.8" y="1.10622" z="4.68013" nx="1" ny="-4.2239089012146" nz="-2.180126190185547" colour="#00354F"/>  <!-- Horizontal plane (blue-ish) -->
+</scene>
